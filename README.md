@@ -220,5 +220,3 @@ teste_tec_supabase_2/
 **Pedro** - Teste Técnico para vaga de Desenvolvedor Backend na Escribo
 
 ---
-
-*Documentação gerada em 18/10/2025*
