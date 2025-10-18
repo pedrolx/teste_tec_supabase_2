@@ -1,12 +1,11 @@
 ## 📋 **DOCUMENTAÇÃO**
 
-```markdown
 # 🎓 Gerador de Planos de Aula com IA
 
 ## 📚 Sobre o Projeto
 Sistema completo que gera planos de aula personalizados utilizando Inteligência Artificial, desenvolvido como teste técnico para a vaga de Desenvolvedor Backend na Escribo.
 
-**✅ TODOS OS REQUISITOS ATENDIDOS:**
+**✅ REQUISITOS ATENDIDOS:**
 - [x] Stack obrigatória: Supabase + Gemini API + React
 - [x] Componentes do plano: Introdução Lúdica, Objetivo BNCC, Passo a Passo, Rubrica de Avaliação
 - [x] Funcionalidades completas: Formulário, Validação, IA, Parsing JSON, Salvamento, Exibição
@@ -223,76 +222,3 @@ teste_tec_supabase_2/
 ---
 
 *Documentação gerada em 18/10/2025*
-```
-
-### **2. Documentação da Edge Function**
-
-Crie o arquivo `docs/edge-function.md`:
-
-```markdown
-# 🔗 Edge Function: generate_lesson_plan
-
-## 📋 Propósito
-Integração com a API do Gemini para gerar planos de aula estruturados.
-
-## 🔧 Configuração
-
-### Variáveis de Ambiente
-- `GEMINI_API_KEY`: Chave da API do Google Gemini
-
-### URL da Function
-```
-https://oypnvszoboacltjwhqsx.supabase.co/functions/v1/generate_lesson_plan
-```
-
-## 📤 Request
-```json
-{
-  "subject": "Matemática",
-  "grade": "5º ano",
-  "topic": "Frações",
-  "duration": 60,
-  "objective": "Compreender frações como parte de um todo",
-  "class_profile": "Turma com diferentes níveis de aprendizado"
-}
-```
-
-## 📥 Response
-```json
-{
-  "success": true,
-  "lesson_plan": {
-    "introducao_ludica": "...",
-    "objetivo_bncc": "...",
-    "passo_a_passo": ["...", "..."],
-    "rubrica_avaliacao": "..."
-  }
-}
-```
-
-## 🛡 Tratamento de Erros
-- Validação de campos obrigatórios
-- Fallbacks para diferentes estruturas de resposta
-```
-
-```markdown
-## 🎯 **CHECKLIST FINAL DE ENTREGA**
-
-### **✅ O que enviar para a Escribo:**
-
-1. **📁 Repositório GitHub** com:
-   - [x] Código-fonte completo do frontend
-   - [x] README.md detalhado
-   - [x] Documentação das decisões técnicas
-   - [x] Scripts SQL de setup
-   - [x] Arquivo .env.example
-
-2. **🔗 URLs de Acesso:**
-   - [x] URL da aplicação: `http://localhost:5173` (instruções para rodar)
-   - [x] Link do projeto Supabase: `https://oypnvszoboacltjwhqsx.supabase.co`
-
-3. **📝 Documentação Completa:**
-   - [x] Instruções de instalação e configuração
-   - [x] Decisões técnicas justificadas
-   - [x] Desafios encontrados e soluções
-   - [x] Escolha do modelo Gemini documentada
