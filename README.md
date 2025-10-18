@@ -1,8 +1,4 @@
-## 📋 **ESTRUTURA COMPLETA DA DOCUMENTAÇÃO**
-
-### **1. README.md Principal**
-
-Crie o arquivo `README.md` na raiz do projeto:
+## 📋 **DOCUMENTAÇÃO**
 
 ```markdown
 # 🎓 Gerador de Planos de Aula com IA
