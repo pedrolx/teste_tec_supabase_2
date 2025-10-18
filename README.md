@@ -35,7 +35,7 @@ Sistema completo que gera planos de aula personalizados utilizando Inteligência
 
 ### 1. Clone e Acesse o Projeto
 ```bash
-git clone <url-do-repositorio>
+git clone https://github.com/pedrolx/teste_tec_supabase_2
 cd teste_tec_supabase_2/frontend/vite-project
 ```
 
